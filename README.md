@@ -1,6 +1,8 @@
 # MockBoard
 
-Real-time whiteboard web-app built with Node.js and socket.io using HTML5 canvas
+Real-time whiteboard web-app. Download your mock ups.
+
+Built with NodeJS, Socket.io and HTML5 canvas
 
 ### How to run
 
