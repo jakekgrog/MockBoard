@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>MockBoard</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css" />
+      <script src="socket.io/socket.io.js"></script>
+      <script src="client.js"></script>
+   </head>
+   <body>
+        <ul class="navigation">
+            <li class="nav-item"><a id="dl" download="Canvas.png" href="#">Download Canvas</a></li>
+            <li class="nav-item"><div id="buttons"><input type="button" id="clear" value="Clear"></div></li>
+        </ul>
+
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger"></label>
+
+        <div class="site-wrap">
+            <canvas id="drawing"></canvas>
+        </div> 
+   </body>
+</html>
